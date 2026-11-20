@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  color: #202337;
+  background: #fff5df;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 7vh auto;
+  max-width: 42rem;
+  padding: 2.25rem clamp(1.25rem, 6vw, 3.25rem);
+  background: #fffaf1;
+  border-top: .5rem solid #2c756d;
+}
+
+.brand {
+  display: inline-block;
+  font-weight: 700;
+  color: #235c56;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  line-height: 1.12;
+  margin-block: 1.2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+p {
+  line-height: 1.65;
+}
+
+a {
+  color: #235c56;
+  text-underline-offset: .15em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block: 2rem .5rem;
+  font-weight: 650;
+}
